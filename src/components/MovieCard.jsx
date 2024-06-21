@@ -11,6 +11,8 @@ const MovieCard = ({ movie }) => {
         />
         <div className="h-[10rem] min-w-full absolute bottom-0 left-0 px-2 bg-gradient-to-t from-black from-30% flex items-end">
           <h1 className="text-2xl m-4">{movie?.attributes.title}</h1>
+          <h1 className="text-2xl m-4">{movie?.attributes.title}</h1>
+          <h1 className="text-2xl m-4">{movie?.attributes.title}</h1>
         </div>
       </div>
     </div>
